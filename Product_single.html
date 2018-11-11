@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Complete Bootstrap Website Layout</title>
+    <link rel="icon" href="imgs/shopify-logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--    Top Section-->
+
+    <div class="top_menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand right py-0">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link py-0 text-muted" href="#">Login</a></li>
+                            <li class="nav-item"><a class="nav-link py-0 text-muted" href="#">|</a></li>
+                            <li class="nav-item"><a class="nav-link py-0 text-muted" href="#">English</a></li>
+                            <li class="nav-item"><a class="nav-link py-0 text-muted" href="#">|</a></li>
+                            <li class="nav-item"><a class="nav-link py-0 text-muted" href="#">My Account</a></li>
+                            <li class="nav-item"><a class="nav-link py-0 text-muted" href="#">|</a></li>
+                            <li class="nav-item"><a class="nav-link py-0 text-muted" href="#">Cart(0)</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navigation -->
+
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light my-2, my-lg-2, mr-sm-2, my-sm-2">
+                        <a class="navbar-brand" href="#"><img src="imgs/shopify-homepage.jpg" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pages</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Product_single.html">Protfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="product.html">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <form class="form-inline">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1"><img src="imgs/search.png" alt=""></span>
+                                    </div>
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon1"><img src="imgs/share.png" alt=""></span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- image slide  -->
+
+    <div class="container-fluid">
+        <div class="overlay">
+            <div class="container">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="text-light">
+                            <img class="img-fluid" src="imgs/slide.jpg">
+                            <div class="carousel-caption">
+                                <h1 class="font-weight-bold">PORTFOLIO</h1>
+                                <p class=" font-weight-bold">Home>Portfolio</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  Portfolio Section  -->
+
+        <div class="portfolio my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="row my-4">
+                            <div class="col-12 nogutter">
+                                <div class="card-deck">
+                                    <div class="card  rounded-6">
+                                        <img class="card-img-top rounded-0" src="imgs/shirt.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row my-4">
+                            <div class="col-12 nogutter">
+                                <div class="card-deck">
+                                    <div class="card card_reco rounded-0">
+                                        <img class="card-img-top rounded-0" src="imgs/shirt.jpg" alt="">
+                                    </div>
+                                    <div class="card card_reco rounded-0">
+                                        <img class="card-img-top rounded-0" src="imgs/ss2.jpg" alt="">
+                                    </div>
+                                    <div class="card card_reco rounded-0">
+                                        <img class="card-img-top rounded-0" src="imgs/shirt.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="row my-2">
+                            <div class="col-12">
+                                <h1 class="needhelp_text">FULL COTTON MEN SHIRT</h1>
+                                <h5 class="text-success"><i class="fa fa-check bg-success text-light p-1 rounded-circle mr-2"></i>Availave</h5>
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed similique repudiandae sunt dolor totam, inventore, voluptatibus voluptate non numquam distinctio, aliquid, est labore fugit eaque quaerat. Incidunt ullam rem, quasi!</p>
+                            </div>
+                            <div class="col-12">
+                                <h1 class="my-2">Features</h1>
+                                <nav>
+                                    <ul class="list-unstyled">
+                                        <li class="nav-item py-1">
+                                            <p class="lead mb-0"><i class="fa fa-check bg-dark text-light rounded-circle p-1 mr-2"></i>100% Cotton</p>
+                                        </li>
+                                        <li class="nav-item py-1">
+                                            <p class="lead mb-0"><i class="fa fa-check bg-dark text-light rounded-circle p-1 mr-2"></i>Designed by Lo'rotte</p>
+                                        </li>
+                                        <li class="nav-item py-1">
+                                            <p class="lead mb-0"><i class="fa fa-check bg-dark text-light rounded-circle p-1 mr-2"></i>4 Color and Size Available</p>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <form>
+                                    <div class="form-group">
+                                        <label class="h4 text-secondary" for="exampleFormControlSelect1">Size</label>
+                                        <select class="form-control rounded-0 border-dark w-25 d-inline-block ml-3" id="exampleFormControlSelect1">
+                                            <option selected>select</option>
+                                            <option>S</option>
+                                            <option>M</option>
+                                            <option>LG</option>
+                                            <option>XL</option>
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-12 mb-0">
+                                <nav aria-label="Page navigation example" class="mb-0">
+                                    <span class="h4 text-muted mr-2">Quantity</span>
+                                    <div class="d-inline-block">
+                                        <ul class="pagination ">
+                                            <li class="page-item disabled"><a class="page-link rounded-0 bg-light font-weight-bold text-dark" href="#">-</a></li>
+                                            <li class="page-item"><a style="width: 85px" class="page-link text-center text-dark" href="#">1</a></li>
+                                            <li class="page-item "><a class="page-link rounded-0 font-weight-bold text-dark" href="#">+</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="col-12 mb-5">
+                                <button type="button" class="btn btn-outline-dark btn-inline-dark"> ADD TO CART</button><br>
+                                <h6>Share</h6><span>
+                                    <nav class="navbar-expand pt-4 text-center d-inline-block cursor">
+                                        <ul class="navbar-nav ">
+                                            <li class="nav-item padding"><a class=" fab fa-twitter" href="#"></a></li>
+                                            <li class="nav-item padding"><a class=" fab fa-facebook" href="#"></a></li>
+                                            <li class="nav-item padding"><a class=" fab fa-instagram" href="#"></a></li>
+                                            <li class="nav-item padding"><a class=" fab fa-youtube" href="#"></a></li>
+                                        </ul>
+                                    </nav>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Testmonial Section  -->
+
+    <div class="accordion" id="accordionExample">
+        <div class="container">
+            <nav class="navbar-expand navbar border_default">
+                <ul class="list-unstyled">
+                    <li class="nav-item float-left bg-dark cursorr" id="heading_one" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="true"><span class="mb-0 px-5 py-3 h4 nav-link text-light">STRATEGIES <i class="ml-3 fa fa-chevron-down"></i></span></li>
+                    <li class="nav-item float-left cursor" id="heading_two" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="true"><span class="mb-0 px-5 py-3 h4 nav-link">STRATEGIES <i class="ml-3 fa fa-chevron-down"></i></span></li>
+                    <li class="nav-item float-left cursor" id="heading_three" data-toggle="collapse" data-target="#navbarSupportedContent3" aria-controls="navbarSupportedContent3" aria-expanded="true"><span class="mb-0 px-5 py-3 h4 nav-link">STRATEGIES <i class="ml-3 fa fa-chevron-down"></i></span></li>
+                </ul>
+            </nav>
+            <div class="testmon collapse" id="navbarSupportedContent1" aria-labelledby="#heading_One" data-parent="#accordionExample">
+                <div class="outside1">
+                    <div class="inside1">
+                        <div class="row my-4">
+                            <div class="text1">
+                                <img class="img-fluid pl-4 pt-1" src="imgs/menushort.jpg">
+                            </div>
+                            <div class="text2 p-3 nogutter">
+                                <p>1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus cumque doloremque atque repellat fugit ea totam nostrum necessitatibus cum mollitia quo ducimus possimus ratione quia nesciunt, omnis optio recusandae laboriosam.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quisquam laborum molestiae quod soluta voluptatum cum amet voluptates nam, vero autem quam tempore eum neque, recusandae tempora? Odio, quia, id?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testmon collapse show" id="navbarSupportedContent2" aria-labelledby="#heading_two" data-parent="#accordionExample">
+                <div class="outside2">
+                    <div class="inside2">
+                        <div class="row my-4">
+                            <div class="text1 nogutter">
+                                <img class="img-fluid pl-4 pt-1" src="imgs/menushort.jpg">
+                            </div>
+                            <div class="text2 p-3 nogutter">
+                                <p> 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis atque, vero repellendus distinctio quas iste ab sit cupiditate quaerat in repudiandae quasi amet nostrum tempore, nulla, alias, autem. Aspernatur, a.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptates reiciendis magnam unde vel laborum ut illo, dicta esse nulla! Necessitatibus laboriosam enim expedita asperiores error atque quisquam, sit officiis?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testmon collapse" id="navbarSupportedContent3" aria-labelledby="#heading_three" data-parent="#accordionExample">
+                <div class="outside3">
+                    <div class="inside3">
+                        <div class="row my-4">
+                            <div class="text1 nogutter">
+                                <img class="img-fluid pl-4 pt-1" src="imgs/menushort.jpg">
+                            </div>
+                            <div class="text2 p-3 nogutter">
+                                <p> 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ipsam, error porro odit, eos debitis sit corrupti a tempora iusto quam praesentium et rerum qui est atque aliquid officia fugit.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto voluptatem in beatae voluptas eos quae expedita saepe? Ducimus, doloribus placeat necessitatibus. Dolorem nostrum commodi, nesciunt excepturi consectetur, error quo iusto.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 4 column section -->
+    <div class="fashion">
+        <div class="popular my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 style="font-family: Oswald-Light" class="display-4">Recomended</h2>
+                        <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, repellat.adipisicing elit. Enim, repellat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  Fashion Section-->
+
+        <div class="pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 nogutter">
+                        <div class="card-deck">
+                            <div class="card card_reco sale rounded-0">
+                                <img class="card-img-top rounded-0" src="imgs/ladiesp.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">$495.00</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit. <br>Lorem ipsum dolor.</p>
+                                </div>
+                            </div>
+                            <div class="card card_reco rounded-0">
+                                <img class="card-img-top rounded-0" src="imgs/ladiesp1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">$495.00</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit. <br>Lorem ipsum dolor.</p>
+                                </div>
+                            </div>
+                            <div class="card card_reco sale rounded-0">
+                                <img class="card-img-top rounded-0" src="imgs/lasiesp2.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">$495.00</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit. <br>Lorem ipsum dolor.</p>
+                                </div>
+                            </div>
+                            <div class="card card_reco rounded-0">
+                                <img class="card-img-top rounded-0" src="imgs/men.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">$495.00</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit. <br>Lorem ipsum dolor.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    3 column   Cards-->
+
+    <div class="help">
+        <div class="container">
+            <div class="card-group">
+                <div class="card help py-5">
+                    <div class="card-body">
+                        <h5 class="card-title help_text">NEED HELP</h5>
+                        <p class="card-text">Call us 24/7 at 1-247-587-888-2323</p>
+                        <a class="text-dark" href="#">Live Chat</a><br>
+                        <a class="btn btn-dark b_redius mt-4 needhelp_text" href="#">Email Us</a>
+                    </div>
+                </div>
+                <div class="card help border-right border-left pl-4 py-5">
+                    <div class="card-body">
+                        <h5 class="card-title help_text">FIND YOUR LOCAL SHOP</h5>
+                        <p class="card-text">Find your nearest shop</p>
+                        <a class="btn btn-dark b_redius mt-5 needhelp_text" href="#">Email Us</a>
+                    </div>
+                </div>
+                <div class="card help pl-4 py-5">
+                    <div class="card-body">
+                        <h5 class="card-title help_text">GET SPECIAL OFFER</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, conse</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, conse</p>
+                        <form class="form-inline my-5">
+                            <div class="input-group">
+                                <input type="text" class="form-control rounded-0 border-dark" placeholder="Enter your email" aria-label="Username" aria-describedby="basic-addon1">
+                                <div class="input-group-append">
+                                    <span class="input-group-text" id="basic-addon1">
+                                        <img src="imgs/search.png" >
+                                    </span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Meet the team -->
+
+    <div class="container py-5 py-sm-4 footer_align">
+        <div class="row">
+            <div class="col-md-3 py-sm-4">
+                <h5 class="text">ABOUT US</h5>
+                <nav class="">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="text-dark nav-link" href="#">Our Story</a></li>
+                        <li class="nav-item"><a class="text-dark nav-link" href="#">Our Team Member</a></li>
+                        <li class="nav-item"><a class="text-dark nav-link" href="#">Office</a></li>
+                        <li class="nav-item"><a class="text-dark nav-link" href="#">Client</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-3 py-sm-4">
+                <h5 class="text">MAIN MENU</h5>
+                <nav>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="text-dark nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="text-dark nav-link" href="#">Shop</a></li>
+                        <li class="nav-item"><a class="text-dark nav-link" href="#">About Us</a></li>
+                        <li class="nav-item"><a class="text-dark nav-link" href="#">Product</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-3 text-center py-sm-4">
+                <h5>FOLLOW US</h5>
+                <nav class="navbar-expand pt-4 text-center d-inline-block">
+                    <ul class="navbar-nav">
+                        <li class="nav-item padding"><a class=" fab fa-twitter" href="#"></a></li>
+                        <li class="nav-item padding"><a class=" fab fa-facebook" href="#"></a></li>
+                        <li class="nav-item padding"><a class=" fab fa-instagram" href="#"></a></li>
+                        <li class="nav-item padding"><a class=" fab fa-youtube" href="#"></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-3 py-sm-4">
+                <h5 class="mb-4 needhelp_text">DOWNLOAD OUR APPS</h5>
+                <img class="img-fluid app_img cursor" src="imgs/google_app.jpg" alt="">
+                <img class="img-fluid app_img cursor" src="imgs/ios.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!--  Bottom-footer Section  -->
+
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="copy_right">Privacy policy | Terms & conditions</p>
+                <p class="copy_right">Copyright &copy; 2018 Faysal Haque.All Rights Reserved</p>
+            </div>
+            <div class="col-md-6">
+                <img class="float-right mt-4" src="imgs/shopify-homepage.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fontawesome_all.js"></script>
+</body>
+
+</html>
